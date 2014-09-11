@@ -1,0 +1,72 @@
+/* theme color pink
+color: #119f75
+*/
+.nav-item a:hover,
+#languages_block_top span:hover,
+a:hover, a:focus{color: #119f75;}
+.p-item .product-container:hover {
+    box-shadow: 0 0 0 3px #119f75 inset;}
+
+img.logo {display: none;}
+
+#header_logo {
+    background: url(../images/logo.png);
+    height: 108px;    display: block;
+    width: 227px;
+}
+
+#shopping_cart a{background-image: url(../images/icon-cart.png);color: #119f75}
+#topnavigation{background-image: url(../images/bg-menu.jpg);}
+.dropdown-menu a:hover .menu-title{background-color: #119f75;}
+.banner-welcome-wrap:after{content: url("../images/bgcustom-right.png");}
+.banner-welcome-wrap:before{content: url("../images/bgcustom-left.png");}
+.banner-welcome-wrap{background-color: #e8564f;}
+.banner-welcome-wrap .buytheme a{color: #5B5A5A;}
+#index .leo-customhtml-ptop img {background: none repeat scroll 0 0 #9cc4ff;}
+
+.title_block span.tcolor {
+    color: #119f75;
+} 
+.green .title_block span.tcolor {
+    color: #9cc4ff;
+}
+.blue .title_block span.tcolor {
+    color: #119f75;
+}
+.red .title_block span.tcolor {
+    color: #e8564f;
+}
+
+.content_prices #add_to_cart:before, .ajax_add_to_cart_button:before {
+    background: none repeat scroll 0 0 #119f75;}
+.content_prices #add_to_cart:hover:before, .ajax_add_to_cart_button:hover:before{
+	background: none repeat scroll 0 0 #e8564f;}
+.content_prices #add_to_cart:hover, .ajax_add_to_cart_button:hover {
+    color: #119f75 !important;}
+
+.leo-customhtml-cbottom h2 {
+    color: #0b926a;}
+.leo-customhtml-cbottom .findout{background-image: url(../images/bg-findout.png);}
+
+.social a:hover {
+    background-color: #119f75;}
+.carousel-control:hover, .carousel-control:focus{background-image: url(../images/bt-next-prev-hover.png);}
+#footer-bottom a {
+    color: #119f75;
+}
+.banner-welcome-wrap h5, .banner-welcome-wrap p{text-shadow: 0 0 1px #e8564f;}
+/*button*/
+#add_to_cart, input.button_mini, input.button_small, input.button, input.button_large, input.button_mini_disabled, input.button_small_disabled, input.button_disabled, input.button_large_disabled, input.exclusive_mini, input.exclusive_small, input.exclusive, input.exclusive_large, input.exclusive_mini_disabled, input.exclusive_small_disabled, input.exclusive_disabled, input.exclusive_large_disabled, a.button_mini, a.button_small, a.button, a.button_large, a.exclusive_mini, a.exclusive_small, a.exclusive, a.exclusive_large, span.button_mini, span.button_small, span.button, span.button_large, span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large, span.exclusive_large_disabled{
+	background-color: #119f75;}
+input.button_mini:hover, input.button_small:hover, input.button:hover, input.button_large:hover, input.exclusive_mini:hover, input.exclusive_small:hover, input.exclusive:hover, input.exclusive_large:hover, a.button_mini:hover, a.button_small:hover, a.button:hover, a.button_large:hover, a.exclusive_mini:hover, a.exclusive_small:hover, a.exclusive:hover, a.exclusive_large:hover{
+	background-color: #e8564f;}
+
+/*responsive*/
+@media (max-width: 767px) {
+	.block-search-top{background: none repeat scroll 0 0 #119f75!important;}
+	#header .header .container:before{background-color: #119f75!important;}
+}
+@media (max-width: 320px) {
+	.block-search-top{background: none!important;}
+	#header_logo{margin: 0 auto;}
+}

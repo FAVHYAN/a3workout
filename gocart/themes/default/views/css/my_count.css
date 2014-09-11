@@ -1,0 +1,76 @@
+    #calendario_cabecera{
+        width: 97.5%;
+        text-align: center;
+    }
+    #calendario{
+        /*border: 1px solid red;*/
+        width: 100%;
+        height: 500px;
+        overflow: auto;
+        text-align: center;
+    }
+    .dia{
+        float: left;
+        width: 13%;
+    }
+    .hora{
+        float: left;
+        width: 60px;
+    }
+    .cabecera_calendario{
+        background-color: #e32322;
+        color: white;
+        font-family:  verdana;
+        font-size: 12px;
+        font-weight: bold;
+        height: 43px;
+        padding-top: 10px;
+        line-height: 9px;
+        border-right: 2px solid white;
+    }
+    .contenido_horario{
+        background-color: #D1D2D4;
+        color: white;
+        font-family:  verdana;
+        font-size: 10px;
+        border-right: 2px solid white;
+        border-bottom: 1px solid white;
+        height: 33px;
+        padding-top: 7px;
+    }
+    b{
+        cursor: pointer;
+    }
+    .busy{
+        margin:1px;
+        border-radius: 5px;
+        background-color: #C71120;
+        color: white;
+        font-weight: bold;
+        margin: -7px 0;        
+        height: 31px;
+        padding-top: 6px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .group_class{
+        margin:1px;
+        border-radius: 5px;
+        background-color: #5EBDFF;
+        color: white;
+        font-weight: bold;
+        margin: -7px 0;        
+        height: 31px;
+        padding-top: 6px;
+        cursor: pointer;
+    }
+    .popover {
+        width: 400px;
+    }
+    .text_justify{
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 15px;
+        text-align: start;
+        color: gray;
+    }

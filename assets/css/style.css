@@ -1,0 +1,316 @@
+:focus {outline:none;}
+ul{
+  list-style-position:inside;
+}
+ul.a3w-list{
+  padding:0;
+  margin:0;
+}
+ul.a3w-list>li:before {
+    /*content: "* ";*/
+    color:#ff0042; /* or whatever color you prefer */
+}
+ul.a3w-list>li{
+  font-size:14px;
+  padding-left:2.5em;
+  text-align:left;
+  color:#424251;
+}
+ul.a3w-ico-check{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+ul.a3w-ico-check>li{
+  font-size:14px;
+  padding-left:2em;
+  margin:0;
+  text-align:left;
+  background-image:url(/assets/img/check.png);
+  background-repeat:no-repeat;
+}
+/*CARROUSEL*/
+
+.carousel .carousel_indicator {
+  padding-top: 5px;
+  text-align: center; }
+  .carousel .carousel_indicator span {
+    margin: 0 2px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #888;
+    text-indent: -1000em; }
+    .carousel .carousel_indicator span.active {
+      background: #000; }
+.carousel .btns {
+  padding-top: 5px;
+  text-align: center; }
+
+#carousel_1,
+#carousel_4 {
+  margin: 0 auto;
+  width: 600px;
+  height: 150px;
+  background: #efefef;
+  overflow: hidden; }
+  #carousel_1 .carousel_box,
+  #carousel_4 .carousel_box {
+    float: left;
+    border: solid #fff 5px;
+    width: 140px;
+    height: 140px;
+    color: #fff;
+    background: #252525;
+    line-height: 140px;
+    text-align: center;
+    font-size: 123%; }
+
+#carousel_2,
+#carousel_5,
+#carousel_6,
+#carousel_10 {
+  margin: 0 auto;
+  width: 600px;
+  height: 140px;
+  overflow: hidden; }
+  #carousel_2 .carousel_box,
+  #carousel_5 .carousel_box,
+  #carousel_6 .carousel_box,
+  #carousel_10 .carousel_box {
+    width: 600px;
+    height: 140px;
+    color: #fff;
+    background: #252525;
+    line-height: 140px;
+    text-align: center;
+    font-size: 123%; }
+    #carousel_2 .carousel_box.second,
+    #carousel_5 .carousel_box.second,
+    #carousel_6 .carousel_box.second,
+    #carousel_10 .carousel_box.second {
+      background: #666; }
+    #carousel_2 .carousel_box.third,
+    #carousel_5 .carousel_box.third,
+    #carousel_6 .carousel_box.third,
+    #carousel_10 .carousel_box.third {
+      background: #999; }
+
+#carousel_3,
+#carousel_7,
+#carousel_8 {
+  margin: 0 auto;
+  width: 600px;
+  height: 150px;
+  background: #efefef;
+  overflow: hidden; }
+  #carousel_3 .carousel_box,
+  #carousel_7 .carousel_box,
+  #carousel_8 .carousel_box {
+    border: solid #fff 5px;
+    width: 190px;
+    height: 140px;
+    color: #fff;
+    background: #252525;
+    line-height: 140px;
+    text-align: center;
+    font-size: 123%; }
+
+.thx {
+  text-align: right; }
+
+#carousel_9 {
+  margin: 0 auto;
+  width: 150px;
+  height: 300px;
+  background: #efefef;
+  overflow: hidden; }
+  #carousel_9 .carousel_box {
+    border: solid #fff 5px;
+    width: 140px;
+    height: 140px;
+    color: #fff;
+    background: #252525;
+    line-height: 140px;
+    text-align: center;
+    font-size: 123%; }
+/****** CAROUSEL ******/
+::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+body {
+  padding-top: 50px;
+  color: #344860;
+}
+.img-responsive{
+  width:260px;
+  height:260px;
+}
+@media only screen and (min-width: 0px) and (max-width: 360px) {
+  .img-responsive{
+    width:150px;
+    height:150px;
+    max-width:150px;
+    max-height:150px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 720px) {
+  .img-responsive{
+    max-width:240px;
+    max-height:240px;
+  }
+}
+
+.pointer{
+	cursor: pointer;
+}
+.tab-pane{
+  padding: 0 10px;
+}
+.edit-photo-responsive{
+  width:120px;
+  height:120px;
+}
+.grises-default{
+  filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+  filter: Gray(); /* IE4-8 and 9 */
+}
+.grises-default:hover { 
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: none; 
+}
+.grises{
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: none; 
+}
+.grises:hover { 
+  filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+  filter: Gray(); /* IE4-8 and 9 */
+}
+.break{
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.small-height{ height: 1ex; }
+.line-height{ line-height:140%; }
+.page-width{
+  max-width: 960px;
+}
+.header-image-inside{
+  height: 200px;
+  overflow: hidden;
+}
+.header-coach-image-inside{
+  height: 370px;
+  overflow: hidden;
+}
+.header-profile{
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+}
+.header-underline{
+  padding: 5px 2px;
+  padding-top: 0;
+  border-bottom: 1px dashed #999999;
+}
+.box-profile{
+  position: relative;
+  margin-top: -100px;
+}
+.border-image-profile{
+  border: 10px solid #ffffff;
+  position: relative;
+  margin-top: -125px;
+}
+.text-disabled{
+  color: #8C8C8C;
+}
+.text-bold{
+  font-weight: bold;
+}
+.all-text-medium *{
+  font-size: 1.7ex;
+}
+.all-text-md-small *{
+  font-size: .7em;
+}
+.text-small{
+  font-size: .6em;
+}
+.text-md-small{
+  font-size: .7em;
+}
+.text-medium{
+  font-size: .8em;
+}
+.text-sm-medium{
+  font-size: .9em;
+}
+.a3w-text-color{
+  color: #DB0036;
+}
+/******** SHADOW BOX ********/
+.nav-shadow
+{
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.8);
+      -webkit-box-shadow: -1 0 40px -10px rgba(0,0,0,0.8);
+      -moz-box-shadow: 0 0 40px -10px rgba(0,0,0,0.8);
+}
+.content-shadow
+{
+    position:relative;
+    box-shadow:0 20px 50px -30px rgba(0,0,0,0.8);
+      -webkit-box-shadow:0 20px 50px -30px rgba(0,0,0,0.8);
+      -moz-box-shadow:0 20px 50px -30px rgba(0,0,0,0.8);
+}
+/******** /SHADOW BOX ********/
+.zero-padding{
+  padding: 0;
+}
+.zero-margin{
+  margin: 0;
+}
+.container .jumbotron{
+  border-radius: 0;
+}
+
+.titlemodule{
+background-color: #FF0042; 
+color: #ffffff
+	
+	}

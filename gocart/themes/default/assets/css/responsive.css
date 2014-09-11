@@ -1,0 +1,97 @@
+
+@media screen and (min-device-width : 1019px)  and (max-width: 1036px ) {
+
+/*======================header menu==================*/
+
+
+}
+@media screen and (min-device-width : 998px)  and (max-width: 1018px ) {
+
+/*======================header menu==================*/
+.contentWhite {background-color: #ffffff;height: 841px;width: 100%;float: left;}
+#imabannersNeed {width: 485px;float: left;padding: 60px 0px 0 0;line-height: 0px;}
+.hiddencontentWhite{background-color:#ffffff;width:100%;float: left;}
+.hijoItem{position: relative;height: 257px;float: left;display: block;}
+  .hiddencontentGray{background-color:#0a374a;height:172px;width:100%;float: left;}
+  .hiddencontentRed{background-color:#e32322;height:99px;width:100%; color:#ffffff;float: left;margin-bottom: 14px}
+  .navbar-collapse .navbar-nav.navbar-right:last-child {margin-left: 90px;margin-top: -3px;}
+  .navbar-nav > li {margin-left: 0px;}
+
+}
+@media screen and (min-device-width : 768px)  and (max-width: 997px ) {
+
+/*======================header menu==================*/
+  #contenidoNeed {height: 37px;}
+  .hiddencontentGray{background-color:#0a374a;height:172px;width:100%;float: left;}
+  .hiddencontentRed{background-color:#e32322;height:99px;width:100%; color:#ffffff;float: left;margin-bottom: 14px;}
+  .hiddencontentWhite{background-color:#ffffff;height:auto;width:100%;float: left;}
+  #imabannersNeed {width: 400px;padding: 70px 20px 0 0;margin-left: 83px;}
+  #imaNeed {padding: 20px 20px 0 20px;width: 31%;float: left;}
+  #entrenadora{width: 100%;display: block;margin-left: 56px;}
+  #cajasRojas{display: block;width: 83%;}
+  #contenidoNeed label {position: relative;top: -19px;left: 58px;}
+  .contentNeed {height: 296px;}
+  #contentComment label {width: 287px;}
+  #contentComment {float: left;width: 70%;padding: 30px 0px 0 50px;}
+
+}
+
+
+@media screen and (min-device-width : 533px)  and (max-width: 767px ) {
+
+/*======================header menu==================*/
+#imabannersNeed {width: 419px;padding: 40px 20px 20px 0;margin-left: 54px;}
+#contenidoNeed label {position: relative;top: -20px;left: 53px;}
+#entrenadora {width: 150px;display: block;margin-left: 56px;}
+#imaNeed {padding: 20px 0px 0 20px;width: 33%;float: left;}
+.contentNeed {height: auto;}
+#imaPerson {float: left;width: 100%;pdisplay: block;dding: 39px 0 0 30px;height: 245px;}
+#contentComment {float: left;width: 100%}
+   .redeSociales {float: right; margin-right: 0px; margin-top: 0px;margin-bottom: 20px;}
+   #ftpLabel {height: 35px;cursor: pointer;padding: 8px 6px 0 0;}
+   .contentFooter {width: 97%;height: 102px;background-color: #404042;margin-left: 14px;}
+   #contentComment {float: left;padding: 30px 0 0 48px;}
+   .contentNeedcustumers {background-color: #ffffff;height: 809px;width: 100%;float: left;}
+
+
+}
+@media screen and (min-device-width : 371px)  and (max-width: 532px ) {
+
+/*======================header menu==================*/
+
+  .hiddencontentGray{background-color:#0a374a;height:172px;width:100%;float: left;}
+  .hiddencontentRed{background-color:#e32322;height:99px;width:100%; color:#ffffff;float: left;margin-bottom: 0px;}
+  .hiddencontentGraytwo{background-color:#0a374a;height:172px;width:100%;float: left;}
+  .hiddencontentRedtwo{background-color:#e32322;height:99px;width:100%; color:#ffffff;float: left;margin-bottom: 14px;}
+  .contentWhite {background-color: #ffffff;height: 1635px;width: 100%;float: left;}
+  #imabannersNeed {width: 400px;padding: 22px 78px 0 0;margin-left: 6px;}
+  #contenidoNeed label {position: relative;top: -16px;left: 43px;}
+   .contentNeed {height: 330px;}
+   #imaPerson {float: left;width: 100%;padding: 39px 0 0 30px;height: 305px;}
+   #contentComment label {width: 132px;}
+   #ftpLabel{padding: 8px 6px 0 0;}
+   .contentNeedcustumers {height: 993px;}
+   .redeSociales {float: right; margin-right: 0px; margin-top: 0px;margin-bottom: 52px;}
+   #row {margin-top: 144px;}
+   #brVertical{display: none;}
+   .itemayor {height: 273px;}
+   .personIma{float: left;width: 100%}
+   #personIma {float: left;width: 100%;}
+   #contentComment{float: left;width: 100%;padding: 30px 0 0 0;}
+   #contenidoNeed {height: 31px;}
+}
+
+@media screen and (min-device-width : 200px)  and (max-width: 370px ) {
+
+/*======================header menu==================*/
+
+#alineacionSocial {position: relative;top: -5px;}
+  .hiddencontentRedtwo {margin-bottom: 0px;}
+  .hiddencontentGraythree{background-color:#0a374a;height:172px;width:100%;float: left;}
+  .hiddencontentRedthree{background-color:#e32322;height:172px;width:100%; color:#ffffff;float: left;}
+  .hiddencontentGrayfour{background-color:#0a374a;height:172px;width:100%;float: left;}
+  .hiddencontentRedfour{background-color:#e32322;height:172px;width:100%; color:#ffffff;float: left;}
+  .hiddencontentGrayfive{background-color:#0a374a;height:172px;width:100%;float: left;}
+  .hiddencontentRedfive{background-color:#e32322;height:172px;width:100%; color:#ffffff;float: left;margin-bottom: 14px;}
+
+  }

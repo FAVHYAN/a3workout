@@ -1,0 +1,68 @@
+h1{margin: 15px 0;}
+
+.resumecat {
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.content_scene_cat img {
+    border: 1px solid #DDDDDD;
+    border-radius: 2px 2px 2px 2px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+
+.cat_desc {
+    height: 45px;
+}
+.cat_name {
+	display: block;
+    font-size: 13px;
+    margin: 10px 0;
+}
+.cat_desc .lnk_more {
+   padding:0 10px;
+   color:#0088CC;
+	background:url(../img/arrow_right_1.png) no-repeat 100% 4px transparent;
+}
+
+
+/* ************************************************************************************************
+      SUB CATEGORIES
+************************************************************************************************ */
+#subcategories {margin-top:15px}
+#subcategories h3 {
+	
+}
+
+.inline_list {
+	list-style-type:none;
+	margin-top:10px;
+}
+.inline_list  li {
+	padding:10px 0;
+	border-bottom:1px dotted #ccc
+}
+.inline_list  li .img {
+	float:left;
+	margin-right:15px
+}
+.inline_list  li img {
+	border:1px solid #ccc
+}
+.inline_list  li .cat_name {
+	font-weight:bold;
+	font-size:13px
+}
+.inline_list  .category-container:hover {
+	border-color: #26a7e5;
+    box-shadow: 0 0 0 2px #26a7e5 inset;
+    transition: all 0.2s ease 0s;
+}
+.inline_list  .category-container {
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+	margin-bottom: 15px;
+}
